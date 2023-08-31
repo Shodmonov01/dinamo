@@ -1,10 +1,11 @@
-import BrendAccordion from "../brendsAccordion";
-import Cost from "../costAccordion";
-import SaleCard from "../salecard";
-import SizeAccordion from "../sizeAccordion";
+import React from "react";
+import BrendAccordion from "../brendsAccordion/BrendAccordion";
+import Cost from "../costAccordion/Cost";
+import SaleCard from "../salecard/SaleCard";
+import SizeAccordion from "../sizeAccordion/SizeAccordion";
 import ProductCardImg from "../../assets/images/productCard.png";
 import { useState } from "react";
-import "./products-about.scss";
+import "./products-about.css";
 
 // perexod stranitsi
 import { Pagination } from "@mui/material";

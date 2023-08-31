@@ -1,0 +1,54 @@
+.navbar {
+    background: #131313;
+    padding: 10px 0;
+  }
+  .navbar .navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .navigation .navbar-left a {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    gap: 6px;
+  }
+  .navbar .navigation .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  .navbar .navigation .navbar-right .navbar-links {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: 0.5;
+  }
+  .navbar .navigation .navbar-right .nav-select select {
+    background: none;
+    outline: unset;
+    border: none;
+    box-shadow: unset;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0 10px;
+  }
+  .navbar .navigation .navbar-right .nav-select select option {
+    color: #131313;
+  }
+  @media (max-width: 766px) {
+    .navbar {
+      display: none;
+    }
+  }
+  

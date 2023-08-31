@@ -1,6 +1,7 @@
+import React from 'react'
 import { useState } from "react";
 import { Arrow, HeartIcon } from "../../assets/images/icons";
-import "./salecard.scss";
+import "./salecard.css";
 const SaleCard = ({
   img,
   title,

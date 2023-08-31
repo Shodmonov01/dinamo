@@ -1,0 +1,85 @@
+.accordion {
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    margin-bottom: 10px;
+  }
+  .accordion .accordion-item {
+    border: none;
+  }
+  .accordion .accordion-item .accordion-header {
+    background: none;
+    border-bottom: none;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button {
+    border: none;
+    box-shadow: none;
+    background: none;
+    background-color: none;
+    color: #131313;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+    border: none;
+    box-shadow: none;
+    background: unset;
+  }
+  .accordion .accordion-item .accordion-body .size-inputs form .size-checkbox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .accordion .accordion-item .accordion-body .size-inputs form .size-checkbox label {
+    color: #000;
+    cursor: pointer;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .accordion .accordion-item .accordion-body .size-inputs form .size-checkbox input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion .accordion-item .accordion-body .size-inputs form .size-checkbox input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -1px;
+    left: -1px;
+    background: #FFF;
+    border: 2px solid #33333378;
+    border-radius: 4px;
+  }
+  .accordion .accordion-item .accordion-body .size-inputs form .size-checkbox input[type=checkbox]:checked::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -1px;
+    left: -1px;
+    background: #FFF;
+    border: 2px solid #FE3A19;
+    border-radius: 4px;
+  }
+  .accordion .accordion-item .accordion-body .size-inputs form .size-checkbox input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: 2px solid #FE3A19;
+    border-width: 0px 2px 2px 0;
+    transform: rotate(40deg);
+    position: absolute;
+    top: 1.5px;
+    left: 6px;
+  }
+  

@@ -1,0 +1,44 @@
+.accordion {
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+  }
+  .accordion .accordion-item .accordion-header {
+    background: none;
+    border-bottom: none;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button {
+    border: none;
+    box-shadow: none;
+    background: none;
+    background-color: none;
+    color: #131313;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+  }
+  .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+    border: none;
+    box-shadow: none;
+    background: unset;
+  }
+  .accordion .accordion-item .accordion-body .cost-inputs form {
+    display: flex;
+    gap: 10px;
+  }
+  .accordion .accordion-item .accordion-body .cost-inputs form input {
+    padding: 9px 7px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: unset;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  

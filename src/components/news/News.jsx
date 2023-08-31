@@ -1,5 +1,6 @@
-import "./news.scss";
-import SaleCard from "../salecard";
+import React from "react";
+import "./news.css";
+import SaleCard from "../salecard/SaleCard";
 import ProductCardImg from "../../assets/images/productCard.png";
 import { useState } from "react";
 

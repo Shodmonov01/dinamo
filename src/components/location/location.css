@@ -1,0 +1,29 @@
+.location {
+    margin-bottom: 40px;
+  }
+  .location .breadcrumb .breadcrumb-item a {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #B5B5B5;
+  }
+  .location .breadcrumb .breadcrumb-item.active {
+    color: #FE3A19;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .location .breadcrumb .breadcrumb-item::before {
+    content: "|";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #B5B5B5;
+  }
+  .location .breadcrumb .breadcrumb-item:first-child::before {
+    content: "";
+  }
+  

@@ -1,5 +1,6 @@
+import React from 'react'
 import { Accordion } from "react-bootstrap";
-import "./cost.scss";
+import "./cost.css";
 
 const Cost = () => {
   return (

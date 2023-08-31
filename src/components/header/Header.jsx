@@ -1,14 +1,15 @@
+import React from 'react'
 import {
   Logo,
   SearchIcon,
 } from "../../assets/images/icons";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Modal from "../../assets/images/align-justify.svg";
 
 // bu yerda bootstrap ishlatilgan
 import { Button, Form, InputGroup } from "react-bootstrap";
-import Store from "../store";
-import "./header.scss";
+import Store from "../store/Store";
+import "./header.css";
 import StoreIcon from "../../assets/images/default.svg";
 import HeartIcon from "../../assets/images/heart.svg";
 import CartIcon from "../../assets/images/cart.svg";
@@ -27,9 +28,9 @@ const Header = () => {
         <div className="container">
           <div className="header">
             <div className="header-logo">
-              <Link to="/">
+              {/* <Link to="/">
                 <Logo />
-              </Link>
+              </Link> */}
             </div>
             <div className="header-center">
               <button className="header-category">

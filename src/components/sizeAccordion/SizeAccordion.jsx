@@ -1,5 +1,6 @@
+import React from 'react'
 import { Accordion } from "react-bootstrap";
-import "./size.scss";
+import "./size.css";
 
 const SizeAccordion = () => {
   return (

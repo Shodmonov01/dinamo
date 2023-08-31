@@ -1,5 +1,6 @@
+import React from 'react'
 import { Breadcrumb } from "react-bootstrap";
-import "./location.scss";
+import "./location.css";
 
 const Location = () => {
   return (
