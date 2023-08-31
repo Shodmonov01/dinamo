@@ -1,0 +1,26 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow: scroll;
+    margin-bottom: 44px;
+    position: relative;
+  }
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel .left-arrow {
+    position: sticky;
+    left: 69px;
+    top: 30px;
+    background: none;
+    border: none;
+  }
+  .carousel .right-arrow {
+    position: sticky;
+    right: 69px;
+    top: 30px;
+    background: none;
+    border: none;
+  }
+  

@@ -1,0 +1,8 @@
+.brend-card {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid rgba(19, 19, 19, 0.10);
+    background: #FFF;
+    padding: 15px 55px;
+    text-align: center;
+}

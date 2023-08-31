@@ -1,0 +1,60 @@
+.banner-all {
+  background: #F4F4F4;
+  padding: 70px 0 28px 0;
+}
+.banner-all .banner {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.banner-all .banner .banner-left {
+  width: 80%;
+}
+.banner-all .banner .banner-left h1 {
+  color: #131313;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 700px;
+}
+.banner-all .banner .banner-left button {
+  border-radius: 4px;
+  background: #131313;
+  border: #131313;
+  padding: 15px 33px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.banner-all .banner .banner-right {
+  width: 41%;
+  margin-left: -260px;
+}
+.banner-all .banner .banner-right img {
+  width: 100%;
+}
+@media (max-width: 376px) {
+  .banner-all .banner {
+    flex-direction: column;
+  }
+  .banner-all .banner .banner-left {
+    width: 100%;
+  }
+  .banner-all .banner .banner-left h1 {
+    font-size: 45px;
+    line-height: 48px;
+    max-width: 100%;
+  }
+  .banner-all .banner .banner-right {
+    width: 100%;
+    margin-left: 0;
+  }
+  .banner-all .banner .banner-right img {
+    width: 100%;
+  }
+}

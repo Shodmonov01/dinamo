@@ -1,0 +1,48 @@
+.products-about {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 124px;
+
+    .products-about-left {
+        width: 22%;
+
+
+    }
+
+    .products-about-right {
+        width: 76%;
+
+        .right-title {
+            margin-bottom: 30px;
+
+            h1 {
+                color: #333;
+                // font-family: HelveticaNeueCyr;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 550;
+                line-height: normal;
+            }
+        }
+
+        .right-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-bottom: 44px;
+            row-gap: 30px;
+            .sale-card{
+                .sale-cost{
+                    display: none;
+                }
+            }
+        }
+
+        .right-bottom {
+            display: flex;
+            justify-content: right;
+        }
+
+    }
+}
