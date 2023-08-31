@@ -1,6 +1,7 @@
+import React from "react";
 import SaleCard from "../salecard";
 // import "./sale.js"
-import "./sale.scss";
+import "./sale.css";
 import SaleCardImg from "../../assets/images/saleCardImg.png";
 import { useState } from "react";
 const Sale = () => {

@@ -1,4 +1,5 @@
-import "./salebanner.scss";
+import React from "react";
+import "./salebanner.css";
 import SaleBannerImg from "../../assets/images/sneakers.png";
 const SaleBanner = () => {
     return (
