@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import Slider from 'react-slick';
+import "./slick.css"; 
+import "./slick-theme.css";
 import CarouselImg from "../../assets/images/fitness.svg";
 import CarouselSecondImg from "../../assets/images/boxing.svg";
 import CarouselThirdImg from "../../assets/images/tennis.svg";
@@ -10,11 +13,32 @@ import { LeftButton, RightButton } from "../../assets/images/icons";
 
 // import { LeftArrow, RightArrow } from "../../assets/images/icons";
 import CarouselCard from "../carouselCard/CarouselCard";
-import "./carousel.css";
+// import "./carousel.css";
 
 
 // bu yerda data 
-const Carousel = () => {
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}
+  
   const data = [
     { img: CarouselImg, title: "Фитнесные вещи" },
     { img: CarouselSecondImg, title: "Боксные вещи" },
@@ -27,27 +51,28 @@ const Carousel = () => {
     { img: CarouselFourthImg, title: "Фитнесные вещи" },
     { img: CarouselFifthImg, title: "Фитнесные вещи" },
   ];
-  return (
-    <>
-    
-      <div className="container-xxl">
-        <div className="carousel">
-          <button className="left-arrow">
-            
-            <LeftButton />
-          </button>
 
-          {/* data kiritilib nom berilgan
-          carousel card strukturasi kiritilgan va unga data biriktirilgan */}
-          {data?.map((i, k) => (
-            <CarouselCard img={i.img} title={i.title} />
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4.5,
+    slidesToScroll: 1.5,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
+  };
+  const Carousel = () => {
+    return (
+      <div className='container-xxl'>
+        <Slider {...settings}>
+          {data?.map((i, k) => (         
+              <CarouselCard  img={i.img} title={i.title} key={k} />
           ))}
-          <button className="right-arrow">
-            <RightButton />
-          </button>
-        </div>
+        </Slider>
       </div>
-    </>
-  );
-};
+    );
+  }
 export default Carousel;
+
+
+

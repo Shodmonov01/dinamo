@@ -1,5 +1,6 @@
-import BrendCard from "../brendCard";
-import "./brends.scss";
+import React from "react";
+import BrendCard from "../brendCard/BrendCard";
+import "./brends.css";
 import brendImg from "../../assets/images/brend.png";
 import Puma from "../../assets/images/puma.png";
 import Adidas from "../../assets/images/adidas.png";
@@ -51,7 +52,7 @@ const Brends = () => {
             <div className="container-xxl">
                 <div className="container">
                     <div className="brends">
-                        {images?.map((item, key) => (
+                        {images?.map((item) => (
                             <BrendCard img={item.img} />  
                         ))}
 

@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   Logo,
   SearchIcon,
-} from "../../assets/images/icons";
-// import { Link } from "react-router-dom";
+} from "../../assets/images/icons";     
+import { Link } from "react-router-dom";
 import Modal from "../../assets/images/align-justify.svg";
 
 // bu yerda bootstrap ishlatilgan
@@ -14,6 +14,8 @@ import StoreIcon from "../../assets/images/default.svg";
 import HeartIcon from "../../assets/images/heart.svg";
 import CartIcon from "../../assets/images/cart.svg";
 import LoginIcon from "../../assets/images/person.svg";
+import ModalCatalog from '../ModalCatalog/ModalCatalog';
+
 
 const Header = () => {
   const data = [
@@ -22,21 +24,28 @@ const Header = () => {
     { img: CartIcon, text: "Корзина" },
     { img: LoginIcon, text: "Войти",link:"/product" },
   ];
+
+  const [show, setShow] = useState(false)
   return (
     <div className="container-xxl">
       <header>
         <div className="container">
           <div className="header">
             <div className="header-logo">
-              {/* <Link to="/">
+              <Link to="/">
                 <Logo />
-              </Link> */}
+              </Link>
             </div>
             <div className="header-center">
-              <button className="header-category">
+
+
+              <button onClick={() => setShow(true)} className="header-category">
                 <img src={Modal} alt="" />
                 Каталог
               </button>
+              <ModalCatalog onClose={() => setShow(false)} show = {show} />
+
+
               <div className="header-search">
                 <InputGroup className="mb-3">
                   <Form.Control
@@ -52,7 +61,7 @@ const Header = () => {
               </div>
             </div>
             <div className="header-buttons">
-              {data?.map((i, k) => (
+              {data?.map((i,) => (
                 <Store
                   img={i.img}
                   text={i.text}

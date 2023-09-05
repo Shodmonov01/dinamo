@@ -82,7 +82,7 @@ const News = () => {
                 </div>
               </div>
               <div className="news-cards-right">
-                {data?.map((i, k) => (
+                {data?.map((i) => (
                   <SaleCard
                     img={i.img}
                     title={i.title}

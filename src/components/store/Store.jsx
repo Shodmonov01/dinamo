@@ -1,10 +1,10 @@
 import React from 'react'
 import "./store.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Store = ({ img, text,link }) => {
   return (
     <>
-      {/* <Link to={link}> */}
+      <Link to={link}>
         
         <button className="store">
           <div className="store-img">
@@ -12,7 +12,7 @@ const Store = ({ img, text,link }) => {
           </div>
           {text}
         </button>
-      {/* </Link> */}
+      </Link>
     </>
   );
 };
