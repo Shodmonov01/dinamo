@@ -1,6 +1,6 @@
 import React from 'react'
-// import { Link } from "react-router-dom";
-// import { LocationIcon } from "../../assets/images/icons.jsx";
+import { Link } from "react-router-dom";
+import { LocationIcon } from "../../assets/images/icons.jsx";
 import "./navbar.css";
 const Navigation = () => {
     return (
@@ -10,11 +10,11 @@ const Navigation = () => {
                     <div className="container">
                         <div className="navigation">
                             <div className="navbar-left">
-                                {/* <Link to="/"><LocationIcon /> Ташкент</Link> */}
+                                <Link to="/"><LocationIcon /> Ташкент</Link>
 
                             </div>
                             <div className="navbar-right">
-                                {/* <Link className="navbar-links">Доставка</Link> */}
+                                <Link className="navbar-links">Доставка</Link>
                                 <div className="nav-select">
                                     <select>
                                         <option>Рус</option>

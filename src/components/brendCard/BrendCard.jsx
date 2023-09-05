@@ -1,29 +1,14 @@
-// import "./brendcard.scss"
-
-// const BrendCard = ({ img }) => {
-//     return (
-//         <>
-//         {/* bu yrda brandlarni kartochkalarini bitta obshiy strukturasi va stili yozilgan va brands da export qilingan*/}
-//             <div className="brend-card">
-//                 <img src={img} alt="brend" />
-//             </div>
-//         </>
-//     );
-// };
-// export default BrendCard;
-
-import Rceact from 'react'
+import React from 'react'
 import "./brendcard.css"
 
-function BrendCard() {
+const BrendCard = ({ img }) => {
   return (
-    <>
-        {/* bu yrda brandlarni kartochkalarini bitta obshiy strukturasi va stili yozilgan va brands da export qilingan*/}
-             <div className="brend-card">
-                 <img src={img} alt="brend" />
-             </div>
-         </>
-  )
-}
-
-export default BrendCard
+      <>
+      {/* bu yrda brandlarni kartochkalarini bitta obshiy strukturasi va stili yozilgan va brands da export qilingan*/}
+          <div className="brend-card">
+              <img src={img} alt="brend" />
+          </div>
+      </>
+  );
+};
+export default BrendCard;

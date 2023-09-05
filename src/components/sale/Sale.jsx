@@ -1,5 +1,5 @@
 import React from "react";
-import SaleCard from "../salecard";
+import SaleCard from "../salecard/SaleCard";
 // import "./sale.js"
 import "./sale.css";
 import SaleCardImg from "../../assets/images/saleCardImg.png";
