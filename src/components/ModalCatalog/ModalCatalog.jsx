@@ -1,61 +1,45 @@
-import React from 'react'
-import './ModalCatalog.css'
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import "./ModalCatalog.css";
+// import { Link } from "react-router-dom";
 import osanka from "../../assets/images/osanka.png";
+import { data, data2 } from "./data"; // Импортируйте массивы данных
 
+const ModalCatalog = (props) => {
+  const [state, setState] = useState(0);
 
-const ModalCatalog = props => {
   if (!props.show) {
-    return null
-}
+    return null;
+  }
   return (
-      <div className="modal" onClick={props.onClose}>
-        <div className="modal-content" onClick={e => e.stopPropagation()}>
-          <div className="modal-container">
-            
-          </div>
+    <div className="modal" onClick={props.onClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-container">
           <div className="modal-body">
             <div className="modal-body_left">
-              <Link>Одежда & Обувь</Link>
-              <p>Фитнес и тренинг</p>
-              <p>Кардиотренировки</p>
-              <p>Охота и рыбалка</p>
-              <p>Плавание пляж водный спорт</p>
-              <p>Игрушки</p>
-              <p>Каркасные и Надувные бассейны</p>
-              <p>Самокаты ролики скейтборды</p>
-              <p>Спортивное питание</p>
-              <p>Активный отдых, туризм и хобби</p>
+              <div className="profile container">
+                {data.map((i, k) => (
+                  <div className="data-title" onClick={(e) => setState(i.id)}>{i.title}</div>
+                ))}
+              </div>
             </div>
 
-            <div className="modal-body_left">
-              <Link>Одежда & Обувь</Link>
-              <p>Фитнес и тренинг</p>
-              <p>Кардиотренировки</p>
-              <p>Охота и рыбалка</p>
-              <p>Плавание пляж водный спорт</p>
-              <p>Игрушки</p>
-              <p>Каркасные и Надувные бассейны</p>
-              <p>Самокаты ролики скейтборды</p>
-              <p>Спортивное питание</p>
-              <p>Активный отдых, туризм и хобби</p>
+            <div className="modal-body_right">
+              <div className="profile container">
+
+                {data2.map((i, k) => (
+                  <div>{state === i.id && <div className="data2-title">{i.title}</div>}</div>
+                ))}
+              </div>
             </div>
 
             <div className="modal-footer">
-              {/* <button onClick={props.onClose} className="modal-button">
-                Close
-              </button> */}
               <img src={osanka} alt="" />
-             </div>
-             
-               
+            </div>
           </div>
-
-
-          
         </div>
       </div>
-    )
-}
+    </div>
+  );
+};
 
-export default ModalCatalog
+export default ModalCatalog;

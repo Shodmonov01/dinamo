@@ -19,23 +19,91 @@
   border-radius: 0;
 }
 
-.modal-body{
+/* .modal-body{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: normal;
   align-items: normal;
-  align-content: normal;
+  align-content: normal;font-size: 15px;
 }
 
 .modal-body_left{
-   
+  
 }
 
+
+.modal-body_right{
+  font-size: 15px;
+}
 .modal-footer{
   display: flex;
   flex-direction: column;
   justify-content: end;
   border-top: none;  
 
+} */
+
+.modal-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Распределение пространства между элементами */
+  align-items: flex-start; /* Выравнивание по верхнему краю */
+  font-size: 18px;
+  padding: 30px 0px 30px 60px;
 }
+
+.modal-body_left {
+  flex-basis: 50%; /* Распределение пространства на 50% ширины родительского элемента */
+  padding-right: 10px; /* Отступ справа между .modal-body_left и .modal-body_right */
+}
+
+.modal-body_right {
+  border-left: 1px solid;
+  border-color: rgb(192, 192, 192);
+  flex-basis: 40%; /* Распределение пространства на 40% ширины родительского элемента */
+  font-size: 15px;
+  padding-left: 10px; /* Отступ слева между .modal-body_right и .modal-footer */
+}
+
+.modal-footer {
+  flex-basis: 10%; /* Распределение пространства на 10% ширины родительского элемента */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Выравнивание содержимого внизу контейнера */
+  border-top: none;
+  padding: 0;
+}
+
+.modal-footer img{
+  margin: 0;
+}
+
+
+
+/* Стили для элементов с классом data-title и data2-title */
+.data-title{
+  font-weight: 440;
+}
+
+.data-title,
+.data2-title {
+  cursor: pointer; /* Установка курсора на указатель при наведении */
+  margin-bottom: 10px; /* Вертикальный отступ между элементами */
+  transition: background-color 0.3s, color 0.3s; /* Анимация изменения фона и цвета текста */
+}
+
+/* Стили для активных элементов с классом data-title и data2-title */
+.data-title.active,
+.data2-title.active {
+  color: #333; /* Цвет текста для активных элементов */
+}
+
+/* Стили для элементов с классом data-title при наведении */
+.data-title:hover {
+  color: #FE3A19; /* Изменение фона при наведении */
+}
+
+/* Стили для элементов с классом data2-title при наведении */
+.data2-title:hover {
+  color: #FE3A19}
