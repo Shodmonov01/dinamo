@@ -27,8 +27,13 @@
 
     display: block;
 
+<<<<<<< HEAD
     width: 32px;
     height: 32px;
+=======
+    width: 50px;
+    height: 50px;
+>>>>>>> a576c08ed1ec6fb9ee1cd90a08e44b9e09b912ae
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);

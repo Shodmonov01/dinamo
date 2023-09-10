@@ -43,3 +43,4 @@ const ModalCatalog = (props) => {
 };
 
 export default ModalCatalog;
+
