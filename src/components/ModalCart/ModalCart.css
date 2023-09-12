@@ -1,0 +1,37 @@
+.modal-cart{
+  z-index: 1999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-cart-content {
+  width: 480px;
+  height: 788px;
+  background-color: #fff;
+  bottom: 50px;
+  right: 230px;
+  border: none;
+  border-radius: 0;
+}
+
+
+
+.modal-cart-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Распределение пространства между элементами */
+  align-items: flex-start; /* Выравнивание по верхнему краю */
+  font-size: 18px;
+  padding: 30px 0px 30px 60px;
+}
+
+
+
+

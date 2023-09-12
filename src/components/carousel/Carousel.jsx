@@ -16,7 +16,6 @@ import CarouselCard from "../carouselCard/CarouselCard";
 // import "./carousel.css";
 
 
-// bu yerda data 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
