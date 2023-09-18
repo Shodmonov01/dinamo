@@ -6,3 +6,20 @@
     padding: 15px 55px;
     text-align: center;
 }
+
+@media (max-width: 376px){
+    .brend-card {
+        width: 105px;
+        height: 50px;
+        padding: 0;
+        /* flex-shrink: 0; */
+        
+        }
+
+        .brend-card img {
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+            width: 50px;
+        }
+}

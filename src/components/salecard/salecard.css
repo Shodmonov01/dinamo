@@ -102,4 +102,141 @@
     transform: translate(3px);
     transition: all ease 0.5s;
   }
+
+  
+  /* @media (max-width: 376px) ,(max-width: 750px) {
+    .sale-card {
+      max-width: 160px;
+      padding: 10px 20px 30px 20px;
+      border-radius: 3px;
+      border: 1px solid rgba(19, 19, 19, 0.05);
+      background: #FFF;
+      position: relative;
+      overflow: hidden;
+      transition: all ease 0.5s;
+      flex-shrink: 0;
+    }
+  } */
+
+  @media (max-width: 376px) {
+    .sale-card {
+      height: 261px;
+      width: 160px;
+      padding: 10px 20px 30px 20px;
+      border-radius: 3px;
+      border: 1px solid rgba(19, 19, 19, 0.05);
+      background: #FFF;
+      position: relative;
+      overflow: hidden;
+      transition: all ease 0.5s;
+      flex-shrink: 0;
+    }
+  
+    .sale-card:hover {
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+      transition: all ease 0.5s;
+    }
+  
+    .sale-card:hover .like-btn {
+      right: 0;
+    }
+  
+    .sale-card .like-btn {
+      transition: all ease 0.5s;
+      position: absolute;
+      right: -52px;
+      top: 20px;
+      border-radius: 15px 0px 0px 15px;
+      background: #F4F4F4;
+      border: none;
+      opacity: 0.3;
+      padding: 4px 15px;
+    }
+  
+    .sale-card .like-btn svg {
+      stroke: #999999;
+      opacity: 1;
+    }
+  
+    .sale-card .sale-cost {
+      position: absolute;
+      left: 0;
+      top: 24px;
+    }
+  
+    .sale-card .sale-cost p {
+      border-radius: 0px 15px 15px 0px;
+      background: #FE3A19;
+      padding: 6px 7px;
+      color: #FFF;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  
+    .sale-card .sale-card-img img {
+      width: 140px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+  
+    .sale-card .card-text p {
+      color: #131313;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .sale-card .card-text .card-text-cost {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .sale-card .card-text .card-text-cost h1 {
+      color: #FE3A19;
+      font-family: 'Bebas Neue';
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  
+    .sale-card .card-text .card-text-cost p {
+      color: #999;
+      font-family: 'Bebas Neue';
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration-line: line-through;
+      margin-bottom: 0;
+    }
+  
+    .sale-card .card-text .sale-card-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #131313;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 550;
+      line-height: 20px;
+      background: none;
+      border: none;
+    }
+  
+    .sale-card .card-text .sale-card-btn svg {
+      transition: all ease 0.5s;
+    }
+  
+    .sale-card .card-text .sale-card-btn:hover svg {
+      transform: translate(3px);
+      transition: all ease 0.5s;
+    }
+  }
   

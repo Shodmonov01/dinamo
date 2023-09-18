@@ -68,11 +68,12 @@ const Header = () => {
               </Link>
             </div>
             <div className="header-center">
+              <div className="pofile"></div>
 
 
               <button onClick={() => setShow(true)} className="header-category">
                 <img src={Modal} alt="" />
-                Каталог
+                <div className="title-catalog">Каталог</div>
               </button>
               <ModalCatalog onClose={() => setShow(false)} show = {show} />
 
@@ -117,6 +118,7 @@ const Header = () => {
               <button onClick={() => setShowCart(true)} className='btn-nav'>
               {data3?.map((i,) => (
                 <Store 
+
                   img={i.img}
                   text={i.text}
                   

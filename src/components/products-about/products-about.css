@@ -35,3 +35,101 @@
     justify-content: right;
   }
   
+
+  @media (max-width: 376px), (max-width: 750px) {
+    .products-about {
+      display: block;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  
+    .products-about .products-about-left {
+      width: 100%;
+    }
+  
+    .products-about .products-about-right {
+      width: 100%;
+      margin-left: 10px;
+    }
+  
+    .products-about .products-about-right .right-title {
+      margin-bottom: 30px;
+    }
+  
+    .products-about .products-about-right .right-title h1 {
+      color: #333;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 550;
+      line-height: normal;
+    }
+  
+    .products-about .products-about-right .right-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 44px;
+      row-gap: 30px;
+    }
+  
+    .products-about .products-about-right .right-cards .sale-card .sale-cost {
+      display: none;
+    }
+  
+    .products-about .products-about-right .right-bottom {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+
+    /* @media (max-width: 376px),
+    (max-width: 750px) {
+      .products-about {
+        display: block;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+  
+      .products-about .products-about-left {
+        width: 100%;
+      }
+  
+      .products-about .products-about-right {
+        width: 100%;
+        margin-left: 10px;
+      }
+  
+      .products-about .products-about-right .right-title {
+        margin-bottom: 30px;
+      }
+  
+      .products-about .products-about-right .right-title h1 {
+        color: #333;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: normal;
+      }
+  
+      .products-about .products-about-right .right-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 44px;
+        row-gap: 30px;
+      }
+  
+      .products-about .products-about-right .right-cards .sale-card .sale-cost {
+        display: none;
+      }
+  
+      .products-about .products-about-right .right-bottom {
+        display: flex;
+        justify-content: center;
+      }
+    } */

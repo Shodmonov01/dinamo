@@ -38,9 +38,10 @@
 .banner-all .banner .banner-right img {
   width: 100%;
 }
-@media (max-width: 376px) {
+@media (max-width: 376px),(max-width: 750px) {
   .banner-all .banner {
     flex-direction: column;
+    margin-left: 20px;
   }
   .banner-all .banner .banner-left {
     width: 100%;
@@ -58,3 +59,5 @@
     width: 100%;
   }
 }
+
+

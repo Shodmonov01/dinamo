@@ -17,6 +17,11 @@
     align-items: center;
     overflow: scroll;
     padding: 10px 103px;
+
+      @media (max-width: 376px) {
+      
+      }
+
     margin-bottom: 40px;
   }
   .products .products-cards .sale-card .sale-cost {
@@ -60,4 +65,18 @@
     stroke: #fff;
     transition: all ease 0.5s;
   }
+
   
+    @media (max-width: 376px), (max-width: 750px) {
+      .products {
+        margin-left: 20px;
+      }
+      
+      .products .product-buttons {
+        display: none;
+      }
+
+      .products .products-cards {
+        padding: 0;
+      }
+    }

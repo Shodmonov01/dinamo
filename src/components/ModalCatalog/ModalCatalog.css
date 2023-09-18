@@ -1,3 +1,7 @@
+.modal-body-phone {
+  display: none;
+}
+
 .modal{
   position: fixed;
   left: 0;
@@ -19,30 +23,6 @@
   border-radius: 0;
 }
 
-/* .modal-body{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: normal;
-  align-items: normal;
-  align-content: normal;font-size: 15px;
-}
-
-.modal-body_left{
-  
-}
-
-
-.modal-body_right{
-  font-size: 15px;
-}
-.modal-footer{
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  border-top: none;  
-
-} */
 
 .modal-body {
   display: flex;
@@ -107,3 +87,52 @@
 /* Стили для элементов с классом data2-title при наведении */
 .data2-title:hover {
   color: #FE3A19}
+
+
+.close-catalog {
+  display: none;
+}
+
+
+  @media (max-width: 376px), (max-width: 750px) {
+    .modal-body-comp {
+      display: none;
+    }
+
+    .modal-body-comp {
+      display:block;
+    }
+
+    .modal-content {
+      width: 100%; /* Заполнить всю ширину экрана */
+      bottom: 0;
+      right: 0;
+      left: 0; /* Полная ширина */
+      border-radius: 0; /* Убрать скругление углов */
+      padding: 10px; /* Уменьшить отступы */
+    }
+  
+    .modal-body {
+      flex-direction: column; /* Изменить на вертикальное расположение */
+      align-items: center; /* Выравнивание по центру */
+      padding: 10px; /* Уменьшить отступы */
+      font-size: 16px; /* Уменьшить размер шрифта */
+    }
+  
+    .modal-body_left,
+    .modal-body_right {
+      flex-basis: 100%; /* Занимать всю доступную ширину */
+      border-left: none; /* Убрать левую границу у .modal-body_right */
+      padding: 10px 0; /* Уменьшить отступы */
+      text-align: center; /* Выравнивание текста по центру */
+    }
+  
+    .modal-footer {
+      display: none;
+    }
+  
+    .close-catalog {
+      display:block;
+    }
+  }
+  

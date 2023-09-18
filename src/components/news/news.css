@@ -61,3 +61,18 @@
     display: none;
   }
   
+
+  @media (max-width: 376px) ,(max-width: 750px) {
+    .news {
+      margin-left: 20px;
+    }
+    
+    .news .news-cards .news-cards-left {
+      display: none;
+    }
+
+    .news .news-cards .news-cards-right {
+      display: flex;
+      overflow: scroll;
+    }
+  }

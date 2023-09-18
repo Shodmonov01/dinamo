@@ -5,3 +5,17 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 30px;
 }
+
+@media (max-width: 376px),(max-width: 750px) {
+        .brends {
+            flex-direction: column; /* Change to a column layout for smaller screens */
+            overflow: scroll;
+            margin-left: 20px;
+            
+
+        }
+
+        .brends::-webkit-scrollbar {
+            display: none;
+          }
+    }

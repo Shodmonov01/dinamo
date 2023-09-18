@@ -46,3 +46,40 @@
     width: 100%;
   }
   
+
+  @media (max-width: 376px) {
+    .sale-banner-full {
+      padding: 40px 0 10px 0;
+    }
+    
+    .sale-banner-full .sale-banner {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .sale-banner-full .sale-banner .sale-banner-left {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .sale-banner-full .sale-banner .sale-banner-left h1 {
+      font-size: 28px;
+      line-height: 36px;
+      max-width: 100%;
+    }
+    
+    .sale-banner-full .sale-banner .sale-banner-left p {
+      font-size: 18px;
+    }
+    
+    .sale-banner-full .sale-banner .sale-banner-left h6 {
+      font-size: 32px;
+    }
+    
+    .sale-banner-full .sale-banner .sale-banner-right {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  

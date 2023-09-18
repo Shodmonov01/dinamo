@@ -55,10 +55,27 @@ function SamplePrevArrow(props) {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4.5,
-    slidesToScroll: 1.5,
+    slidesToShow: 4.7,
+    slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
+    // initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 385,
+        settings: {
+          slidesToShow: 1.3,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   const Carousel = () => {
     return (

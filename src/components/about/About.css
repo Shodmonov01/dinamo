@@ -46,3 +46,38 @@
   right: 10px;
   width: 100%;
 }
+
+
+@media (max-width: 376px) ,(max-width: 750px) {
+  .about-full {
+    padding: 60px 0; /* Измените отступ сверху и снизу по вашему усмотрению */
+  }
+  .about-full .about {
+    flex-direction: column; /* Измените направление флекс-контейнера на вертикальное */
+    padding: 30px 20px; /* Измените отступы по вашему усмотрению */
+  }
+  .about-full .about .about-left {
+    width: 100%;
+  }
+  .about-full .about .about-left h1 {
+    font-size: 20px; /* Уменьшите размер шрифта по вашему усмотрению */
+    line-height: 28px; /* Уменьшите интервал по вашему усмотрению */
+    max-width: 100%; /* Уберите максимальную ширину, чтобы текст занимал всю ширину контейнера */
+  }
+  .about-full .about .about-left p {
+    font-size: 14px; /* Уменьшите размер шрифта по вашему усмотрению */
+    line-height: 20px; /* Уменьшите интервал по вашему усмотрению */
+  }
+  .about-full .about .about-right {
+    width: 100%;
+    text-align: center; /* Центрируйте изображение */
+  }
+  .about-full .about .about-right img {
+    position: relative;
+    z-index: auto;
+    bottom: auto;
+    right: auto;
+    width: 80%; /* Уменьшите ширину изображения по вашему усмотрению */
+    margin-top: 20px; /* Добавьте отступ сверху по вашему усмотрению */
+  }
+}

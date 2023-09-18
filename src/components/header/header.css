@@ -69,24 +69,44 @@ header {
     align-items: center;
     gap: 20px;
   }
-  @media (max-width: 376px) {
+
+  
+  @media (max-width: 376px), (max-width: 750px) {
     header .header {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      
     }
+
     header .header .header-logo {
-      width: 120px;
+      width: 80px;
+      margin-left: 20px;
+    }
+    header .header .header-logo svg {
+      width: 80px;
     }
     header .header .header-logo img {
       width: 100%;
     }
     header .header .header-center .header-category {
+      justify-content: center;
+      width: 5px;
+      border: none;
+      order: 3;
+      margin-right: 25px;
+    }
+
+    header .title-catalog {
       display: none;
     }
     header .header .header-center .header-search {
       width: 190px;
       height: 40px;
+      order: 2;
+      margin: 0;
+      
+      
     }
     header .header .header-center .header-search button {
       display: none;
