@@ -1,0 +1,21 @@
+.nav-mobile {
+  display: none;
+}
+
+@media (max-width: 376px) {
+  .nav-mobile {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+  }
+
+  .btn-nav {
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+  }
+
+}

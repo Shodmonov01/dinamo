@@ -1,7 +1,3 @@
-.modal-body-phone {
-  display: none;
-}
-
 .modal{
   position: fixed;
   left: 0;
@@ -93,9 +89,17 @@
   display: none;
 }
 
+.mobile-header-category {
+  display: none;
+}
+
 
   @media (max-width: 376px), (max-width: 750px) {
-    .modal-body-comp {
+.mobile-header-category {
+  display: block;
+}
+
+    .modal-body {
       display: none;
     }
 
@@ -105,6 +109,7 @@
 
     .modal-content {
       width: 100%; /* Заполнить всю ширину экрана */
+      /* height: 750px; */
       bottom: 0;
       right: 0;
       left: 0; /* Полная ширина */
@@ -132,6 +137,7 @@
     }
   
     .close-catalog {
+      
       display:block;
     }
   }

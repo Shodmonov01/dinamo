@@ -41,10 +41,11 @@
 @media (max-width: 376px),(max-width: 750px) {
   .banner-all .banner {
     flex-direction: column;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   .banner-all .banner .banner-left {
-    width: 100%;
+    width: 90%;
+    margin-left: 20px;
   }
   .banner-all .banner .banner-left h1 {
     font-size: 45px;
@@ -58,6 +59,8 @@
   .banner-all .banner .banner-right img {
     width: 100%;
   }
+
+  
 }
 
 

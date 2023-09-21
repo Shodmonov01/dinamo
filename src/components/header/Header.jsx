@@ -78,6 +78,7 @@ const Header = () => {
               <ModalCatalog onClose={() => setShow(false)} show = {show} />
 
 
+
               <div className="header-search">
                 <InputGroup className="mb-3">
                   <Form.Control

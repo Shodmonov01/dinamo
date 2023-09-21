@@ -71,50 +71,54 @@ header {
   }
 
   
-  @media (max-width: 376px), (max-width: 750px) {
+  @media (max-width: 376px) 
+  { 
     header .header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      
-    }
-
-    header .header .header-logo {
-      width: 80px;
-      margin-left: 20px;
-    }
-    header .header .header-logo svg {
-      width: 80px;
-    }
-    header .header .header-logo img {
-      width: 100%;
-    }
-    header .header .header-center .header-category {
-      justify-content: center;
-      width: 5px;
-      border: none;
-      order: 3;
-      margin-right: 25px;
-    }
-
-    header .title-catalog {
-      display: none;
-    }
-    header .header .header-center .header-search {
-      width: 190px;
-      height: 40px;
-      order: 2;
-      margin: 0;
-      
-      
-    }
-    header .header .header-center .header-search button {
-      display: none;
-    }
-    header .header .header-buttons {
-      display: none;
-    }
-  }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+      }
+    
+      header .header .header-logo {
+        width: 80px;
+        margin-left: 20px;
+      }
+    
+      header .header .header-logo svg,
+      header .header .header-logo img {
+        width: 100%;
+        height: auto;
+      }
+    
+      header .header .header-center .header-category {
+        width: 5px;
+        border: none;
+        order: 3;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+      }
+    
+      header .title-catalog {
+        display: none;
+      }
+    
+      header .header .header-center .header-search {
+        width: 70%;
+        height: 40px;
+        order: 2;
+        margin: 0;
+        padding: 0 10px;
+        }
+    
+      header .header .header-center .header-search button {
+        display: none;
+      }
+    
+      header .header .header-buttons {
+        display: none;
+      } }
   
 
   .btn-nav{

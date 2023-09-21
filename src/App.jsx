@@ -39,6 +39,7 @@ import Footer from "./components/footer";
 import Navigation from "./components/navbar/Navigation";
 import Home from "./pages/home";
 import Product from "./pages/product";
+import NavMobile from "./mobile-components/NavMobile/NavMobile";
 function App() {
   return (
     <div className="App">
@@ -48,6 +49,7 @@ function App() {
         <Route element={<Home />} path="/" />
         <Route element={<Product />} path="/product" />
       </Routes>
+      <NavMobile/>
       <Footer />
     </div>
   );

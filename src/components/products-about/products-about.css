@@ -40,10 +40,11 @@
     .products-about {
       display: block;
       align-items: flex-start;
-      width: 100%;
+      width: 90%;
       justify-content: center;
-      margin-bottom: 20px;
-      margin-left: 20px;
+      margin: auto;
+      /* margin-bottom: 20px;
+      margin-left: 20px; */
     }
   
     .products-about .products-about-left {
@@ -52,7 +53,7 @@
   
     .products-about .products-about-right {
       width: 100%;
-      margin-left: 10px;
+      margin-left: 0px;
     }
   
     .products-about .products-about-right .right-title {
