@@ -1,14 +1,14 @@
-.catalog-accaradion {
+.catalog_accaradion {
     border-radius: 3px;
     background: #FFF;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
     border: none;
   }
-  .catalog-accaradion .catalog-item .catalog-header {
+  .catalog_accaradion .catalog_item .catalog_header {
     background: none;
     border-bottom: none;
   }
-  .catalog-accaradion .catalog-item .catalog-header .accordion-button  {
+  .catalog_accaradion .catalog_item .catalog_header .accordion_button  {
     border: none;
     box-shadow: none;
     background: none;
@@ -19,16 +19,16 @@
     font-weight: 550;
     line-height: normal;
   }
-  .catalog-accaradion .catalog-item .catalog-header .accordion-button.collapsed {
+  .catalog_accaradion .catalog_item .catalog_header .accordion_button .collapsed {
     border: none;
     box-shadow: none;
     background: unset;
   }
-  .catalog-accaradion .catalog-item .accordion-body .cost-inputs form {
+  .catalog_accaradion .catalog_item .accordion_body .cost_inputs form {
     display: flex;
     gap: 10px;
   }
-  .catalog-accaradion .catalog-item .accordion-body .cost-inputs form input {
+  .catalog_accaradion .catalog_item .accordion_body .cost_inputs form input {
     padding: 9px 7px;
     border-radius: 3px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -43,7 +43,7 @@
   }
   
 
-   .catalog-header   {
+   .catalog_header   {
     border: none;
     box-shadow: none;
     background: none;

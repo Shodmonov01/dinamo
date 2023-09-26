@@ -11,9 +11,24 @@
   justify-content: center;
 }
 
+.modal-store-body h1 {
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.modal-store-body h4 {
+  color: #666;
+font-family: HelveticaNeueCyr;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin: 20px;
+}
+
 .modal-store-content {
-  width: 290px;
-  height: 500px;
+  width: 375px;
+  height: 630px;
   background-color: #fff;
   bottom: 50px;
   right: 230px;
@@ -24,12 +39,8 @@
 
 
 .modal-store-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; /* Распределение пространства между элементами */
-  align-items: flex-start; /* Выравнивание по верхнему краю */
   font-size: 18px;
-  padding: 30px 0px 30px 60px;
+  padding: 10px 0px 0px 0px;
 }
 
 

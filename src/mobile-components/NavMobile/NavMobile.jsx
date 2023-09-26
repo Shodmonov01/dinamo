@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Store from "../../components/store/Store";
-import StoreIcon from "../../assets/images/default.svg";
-import HeartIcon from "../../assets/images/heart.svg";
-import CartIcon from "../../assets/images/cart.svg";
-import LoginIcon from "../../assets/images/person.svg";
+import StoreIcon from "../../assets/images/default_white.svg";
+import HeartIcon from "../../assets/images/heart_white.svg";
+import CartIcon from "../../assets/images/cart_white.svg";
+import LoginIcon from "../../assets/images/person_white.svg";
 import ModalStore from "../../components/ModalStore/Modalstore";
 import ModalHeart from "../../components/ModalHeart/ModalHeart";
 import ModalCart from "../../components/ModalCart/ModalCart";

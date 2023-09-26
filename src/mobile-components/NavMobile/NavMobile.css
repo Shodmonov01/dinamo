@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 376px), (max-width: 750px) {
   .nav-mobile {
     position: fixed;
     display: flex;
@@ -17,5 +17,6 @@
     color: aliceblue;
     background-color: rgb(0, 0, 0);
   }
+
 
 }

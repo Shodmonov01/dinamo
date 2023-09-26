@@ -71,7 +71,7 @@ header {
   }
 
   
-  @media (max-width: 376px) 
+  @media (max-width: 376px), (max-width: 750px) 
   { 
     header .header {
         display: flex;

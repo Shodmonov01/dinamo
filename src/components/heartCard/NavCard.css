@@ -1,0 +1,53 @@
+.heart_card {
+  display: flex;
+  border: solid 1px rgb(207, 207, 207);
+  height:  136px;
+  width: 335px;
+  margin: 20px auto ;
+  align-items: center;
+}
+
+.heart_card .card_img img {
+  width: 120px;
+}
+
+.card_info{
+  padding-bottom: 0px;
+  bottom: 0px;
+}
+
+.card_info .product_name, .product_cost{
+  padding-bottom: 5px;
+}
+
+.product_name{
+  font-size: 14px;
+}
+
+.product_cost p {
+  color: #FE3A19;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.sale-card-btn{
+  /* background-color: brown; */
+  width: 173px;
+  height: 23px;
+  font-size: 12px;
+  border: none;
+}
+
+.button_x {
+  width: 26px;
+  font-size: 15px;
+  margin: 0 0 75px 0px;
+  background-color:#fff;
+  color: rgb(207, 207, 207);
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 50%;
+}

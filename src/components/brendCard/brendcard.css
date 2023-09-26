@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-@media (max-width: 376px){
+@media (max-width: 376px), (max-width: 750px){
     .brend-card {
         width: 105px;
         height: 50px;

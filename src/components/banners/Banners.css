@@ -87,7 +87,7 @@
   }
   
 
-  @media (max-width: 376px) {
+  @media (max-width: 376px), (max-width: 750px) {
     .banners {
       padding: 80px 0;
       background: #F4F4F4;
