@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import "./ModalCatalog.css";
 // import { Link } from "react-router-dom";
 import osanka from "../../assets/images/osanka.png";
-import { data, data2 } from "./data"; // Импортируйте массивы данных
-import { Accordion } from "react-bootstrap";
+import { data, data2 } from "./data"; 
 import CatalogAccordion from "../../mobile-components/CatalogAccordion/CatalogAccordion";
 
 const ModalCatalog = (props) => {

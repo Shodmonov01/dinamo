@@ -40,6 +40,7 @@ import Navigation from "./components/navbar/Navigation";
 import Home from "./pages/home";
 import Product from "./pages/product";
 import NavMobile from "./mobile-components/NavMobile/NavMobile";
+import MobileFooter from "./mobile-components/MobileFooter/MobileFooter";
 function App() {
   return (
     <div className="App">
@@ -51,6 +52,7 @@ function App() {
       </Routes>
       <NavMobile/>
       <Footer />
+      <MobileFooter/>
     </div>
   );
 };

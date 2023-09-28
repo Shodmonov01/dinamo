@@ -1,56 +1,46 @@
-.catalog_accaradion {
-    border-radius: 3px;
-    background: #FFF;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
-    border: none;
-  }
-  .catalog_accaradion .catalog_item .catalog_header {
-    background: none;
-    border-bottom: none;
-  }
-  .catalog_accaradion .catalog_item .catalog_header .accordion_button  {
-    border: none;
-    box-shadow: none;
-    background: none;
-    background-color: none;
-    color: #131313;
-    font-size: 2px;
-    font-style: normal;
-    font-weight: 550;
-    line-height: normal;
-  }
-  .catalog_accaradion .catalog_item .catalog_header .accordion_button .collapsed {
-    border: none;
-    box-shadow: none;
-    background: unset;
-  }
-  .catalog_accaradion .catalog_item .accordion_body .cost_inputs form {
-    display: flex;
-    gap: 10px;
-  }
-  .catalog_accaradion .catalog_item .accordion_body .cost_inputs form input {
-    padding: 9px 7px;
-    border-radius: 3px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    outline: unset;
-    width: 100%;
-    color: #000;
-    text-align: center;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 14px;
-  }
-  
+.mobile_catalog {
+  max-height: 700px;
+}
 
-   .catalog_header   {
-    border: none;
-    box-shadow: none;
-    background: none;
-    background-color: none;
-    color: #131313;
-    font-size: 2px;
-    font-style: normal;
-    font-weight: 550;
-    line-height: normal;
-  }
+.catalog_title{
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.mobile_catalog .accordion {
+display: flex;
+flex-direction: column;
+gap: 30px;
+box-shadow: none;
+overflow: auto;
+}
+
+.mobile_catalog .accordion .accordion-item .accordion-header .accordion-button.collapsed  {
+color: #666;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+text-decoration-line: underline;
+height: 34px;
+}
+
+/* .mobile_catalog .accordion .accordion-item .accordion-header .accordion-button {
+  color: #FE3A19;
+  font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+text-decoration-line: underline;
+height: 34px;
+} */
+
+.mobile_catalog .accordion .accordion-item .accordion-header .accordion-button {
+  color: #fe3a19;
+font-size: 18px;
+font-style: normal;
+font-weight: 460;
+line-height: 24px;
+text-decoration-line: underline;
+height: 34px;
+}
