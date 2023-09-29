@@ -46,15 +46,26 @@ margin: 20px;
 
 
 .modal-heart-body {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
-  /* align-items: flex-start;  */
   font-size: 18px;
   padding: 10px 0px 0px 0px;
 
 }
 
+.modal-heart-body .close-button {
+  display: none;}
+
+@media (max-width: 376px), (max-width: 750px) {
+.modal-heart-body .close-button {
+  display: block;
+  width: 335px;
+  height: 48px;
+  margin: 0px 20px 20px 20px;
+  border: none;
+  border-radius: 1px;
+  color: #fff;
+  background-color: #000000;
+}
+}
 
 
 

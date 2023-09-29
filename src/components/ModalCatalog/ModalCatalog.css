@@ -140,5 +140,15 @@
       
       display:block;
     }
+
+    .mobile-header-category .close-button {
+      width: 320px;
+      height: 48px;
+      margin: 20px;
+      border: none;
+      border-radius: 1px;
+      color: #fff;
+      background-color: #000000;
+    }
   }
   

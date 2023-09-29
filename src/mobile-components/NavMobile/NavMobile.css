@@ -14,9 +14,10 @@
   }
 
   .btn-nav {
-    color: aliceblue;
     background-color: rgb(0, 0, 0);
   }
-
+  .store {
+    color: #fff;
+  }
 
 }

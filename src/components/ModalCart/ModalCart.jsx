@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import "./ModalCart.css";
 // import { Link } from "react-router-dom";
 import data from "./data";
-import NavCard from "../heartCard/NavCard";
-
+import CartCard from "../CartCard/CartCard";
 
 const ModalCart = (props) => {
   const [state, setState] = useState(0);
@@ -20,7 +19,7 @@ const ModalCart = (props) => {
             <h4>Вы можете легко купить то, что вы выбираете из корзины</h4>
 
             {data.map((card, index) => (
-              <NavCard
+              <CartCard
                 img={card.img}
                 title={card.title}
                 cost={card.cost}

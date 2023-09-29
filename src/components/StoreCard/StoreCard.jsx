@@ -1,11 +1,11 @@
 import React from "react";
 import { Arrow } from "../../assets/images/icons";
-import "./NavCard.css";
+import "./StoreCard.css";
 import ProductCardImg from "../../assets/images/productCard.png";
 
 
 
-function NavCard({
+function StoreCard({
   
     img,
     title,
@@ -27,9 +27,7 @@ function NavCard({
         <div className="product_cost">
           <p>{cost}</p>
         </div>
-        <button className="sale-card-btn">
-          Добавить в корзинку <Arrow />
-        </button>
+        
 
       </div>
       <div className="x">
@@ -38,14 +36,14 @@ function NavCard({
         </button>
 
       </div>
-
-      
-
-
-      
     </div>
+    {/* <div className="button-order">
+      <button>
+        Оформить Заказ
+      </button>
+    </div> */}
     </>    
   );
 }
 
-export default NavCard;
+export default StoreCard;

@@ -35,6 +35,8 @@ margin: 20px;
   right: 230px;
   border: none;
   border-radius: 0;
+  overflow: auto;
+  scroll-behavior: auto;
 }
 
 
@@ -44,6 +46,21 @@ margin: 20px;
   padding: 10px 0px 0px 0px;
 }
 
+.modal-cart-body .close-button {
+  display: none;
+}
 
+@media (max-width: 376px), (max-width: 750px) {
+.modal-cart-body .close-button {
+  display: block;
+  width: 335px;
+  height: 48px;
+  margin: 20px 20px 20px 20px;
+  border: none;
+  border-radius: 1px;
+  color: #fff;
+  background-color: #000000;
+}
+}
 
 
