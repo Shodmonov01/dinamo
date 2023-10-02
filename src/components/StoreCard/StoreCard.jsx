@@ -28,6 +28,7 @@ function StoreCard({
           <p>{cost}</p>
         </div>
         
+        
 
       </div>
       <div className="x">
@@ -37,11 +38,21 @@ function StoreCard({
 
       </div>
     </div>
-    {/* <div className="button-order">
-      <button>
-        Оформить Заказ
-      </button>
-    </div> */}
+    <div className="order-info">
+          <div className="adress-order">
+            <p>Адресс</p>
+            <p>Регион: Ташкент</p>
+            <p>Район: Чиланзарскый район</p>
+            <p>Улица: Максуд Шайхзада</p>
+            <p>Дом: 7 - Дом</p>
+            <p>Подьезд: 54</p>
+            <p>Квартира: 27</p>
+            <p>Дата Доставка:</p>
+            <p>27.05.2021 От 30.05.2021 До</p>
+            <p>Номер заказы: 1024</p>
+            <div className="wait">ожидание</div>
+          </div>
+        </div>
     </>    
   );
 }

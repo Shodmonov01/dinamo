@@ -27,10 +27,7 @@ const ModalStore = (props) => {
                 id={card.id}
               />
             ))}
-            <div className="modal-store-info">
-              <h4>Адреса</h4>
-              <h4>Регион Ташкент</h4>
-            </div>
+            
             <button className="close-button" onClick={props.onClose}>
               close
             </button>

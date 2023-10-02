@@ -24,10 +24,10 @@ const SaleCard = ({
             setLike(!like); 
           }}
           //   onDoubleClick={() => setCardId(null)}
-          style={{
-            backgroundColor: cardId === id && like ? "red" : "gray",
+          // style={{
+          //   backgroundColor: cardId === id && like ? "red" : "gray",
             
-          }}
+          // }}
         >
           <HeartIcon />
         </button>

@@ -42,6 +42,10 @@
   border: none;
 }
 
+.total-price {
+  display: flex;
+}
+
 .button_x {
   width: 26px;
   font-size: 15px;

@@ -61,3 +61,20 @@
   color: #fff;
   background-color: #FE3A19;
 }
+
+.order-info {
+  background-color: #E0E0E0;
+  width: 335px;
+  margin: 20px auto ;
+}
+
+.order-info .wait {
+  width: 134px;
+  height: 32px;
+  color: #137FFF;
+  border: solid #137FFF 1px;
+  border-radius: 5px;
+  text-align: center;
+  /* font-size: 15px; */
+
+}
