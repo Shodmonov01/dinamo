@@ -15,7 +15,7 @@ function StoreCard({
 }) {
   return (
     <>
-    <div className="heart_card">
+    <div className="store_card">
       <div className="card_img">
         <img src={img} alt="" />
       </div>

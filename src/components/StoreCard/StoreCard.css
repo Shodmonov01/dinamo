@@ -1,13 +1,13 @@
-.heart_card {
+.store_card {
   display: flex;
   border: solid 1px rgb(207, 207, 207);
   height:  136px;
   width: 335px;
-  margin: 20px auto ;
+  margin: 20px auto -20px auto ;
   align-items: center;
 }
 
-.heart_card .card_img img {
+.store_card .card_img img {
   width: 120px;
 }
 
@@ -63,12 +63,18 @@
 }
 
 .order-info {
+  display: flex;
   background-color: #E0E0E0;
   width: 335px;
   margin: 20px auto ;
 }
 
+.order-info .adress-order {
+  margin: 20px;
+}
+
 .order-info .wait {
+  margin: 10px 0 10px 0px;
   width: 134px;
   height: 32px;
   color: #137FFF;
